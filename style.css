@@ -1,0 +1,55 @@
+@font-face {
+  font-family: terminal;
+  src: url(../fonts/JetBrainsMono/JetBrainsMonoNerdFont-Bold.ttf);
+}
+
+body {
+  background-color: black;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow-y: scroll;
+}
+
+p {
+  color: greenyellow;
+  font-family: terminal;
+}
+
+.banner {
+  color: yellow;
+  font-family: terminal;
+  padding: 10px;
+  vertical-align: top;
+  width: 90vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#domain, #website {
+  background-color: black;
+  color: white;
+}
+
+.userInputs {
+  font-family: terminal;
+  color: white;
+}
+
+.emails {
+  height: 30vh;
+  overflow-y: scroll;
+  border-color: yellow;
+  border-radius: 5px;
+}
+
+pre {
+  vertical-align: top;
+  line-height: normal;
+}
+
+/*GUI IDEA: Make it emulate a terminal*/
